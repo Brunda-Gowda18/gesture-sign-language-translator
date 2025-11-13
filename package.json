@@ -1,0 +1,19 @@
+{
+  "name": "sign-language-translator",
+  "version": "1.0.0",
+  "description": "Local JS deps for Sign Language Translator (ml5/p5/tfjs/knn)",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -p 8080 -c-1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@tensorflow-models/knn-classifier": "^1.2.6",
+    "@tensorflow/tfjs": "^4.22.0",
+    "p5": "^2.1.1"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
